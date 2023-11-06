@@ -1,8 +1,8 @@
 ﻿namespace DevBlog.Service.AuthAPI.Data
 {
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-    using DevBlog.Service.AuthAPI.Models;
     using Microsoft.EntityFrameworkCore;
+    using DevBlog.Service.AuthAPI.Models.DbModels;
 
     public class AuthApiDbContext : IdentityDbContext<ApplicationUser>
     {

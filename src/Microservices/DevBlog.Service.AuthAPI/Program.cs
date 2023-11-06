@@ -1,6 +1,6 @@
 using AutoMapper;
 using DevBlog.Service.AuthAPI.Data;
-using DevBlog.Service.AuthAPI.Models;
+using DevBlog.Service.AuthAPI.Models.DbModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

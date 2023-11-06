@@ -1,4 +1,4 @@
-﻿namespace DevBlog.Service.AuthAPI.Models
+﻿namespace DevBlog.Service.AuthAPI.Models.DbModels
 {
     using Microsoft.AspNetCore.Identity;
     using System.ComponentModel.DataAnnotations;
