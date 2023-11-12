@@ -1,12 +1,14 @@
 ﻿namespace DevBlog.Web.Models
 {
+    using static DevBlog.Web.Utility.StaticDetails;
+
     public class RequestDto
     {
         /// <summary>
         /// The request method.
         /// Default -> GET.
         /// </summary>
-        public string RequestType { get; set; } = "GET";
+        public RequestType RequestType { get; set; } = RequestType.GET;
 
         /// <summary>
         /// The url to which the request goes.
